@@ -79,6 +79,10 @@ aside
 	float: left;
 	min-height: 600px;
 }
+td
+{
+	color: gold;
+}
 #marca
 {
 	color: red;
