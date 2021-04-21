@@ -1,0 +1,92 @@
+body
+{
+	background-image: url("../images/fondo de pantalla.jpg");
+}
+
+header
+{
+	background: black;
+	position: relative;
+	display: block;
+	widows: 100%;
+	height: 90px;
+}
+
+header ul:nth-child(1)
+{
+	float: left;
+
+}
+
+header ul:nth-child(2) 
+{
+	float: right;
+}
+
+header ul li
+{
+	float: left;
+	display: block;
+}
+
+nav
+{
+	background: black;
+	display: block;
+	position: relative;
+	widows: 100%;
+	height: 100px;
+}
+
+nav ul
+{
+	display: block;
+	margin: auto;
+	position: absolute;
+	left: 0
+	right: 0;
+}
+
+nav ul li
+{
+	float: left;
+	display: block;
+}
+
+nav ul li a
+{
+	padding: 15px;
+	margin: 15px;
+	position: relative;
+	display: block;
+}
+
+/*aside
+{
+	display: block;
+	width: 20%;
+	float: right;
+	min-height: 600px;
+}*/
+caption
+{
+	color: white;
+}
+aside
+{
+	display: block;
+	width: 30%;
+	float: left;
+	min-height: 600px;
+}
+#marca
+{
+	color: red;
+}
+main
+{
+	display: block;
+	width: 40%;
+	float: left;
+	min-height: 600px
+}
